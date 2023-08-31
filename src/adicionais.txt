@@ -1,0 +1,2 @@
+ReactDOM.render(<><App /> < GlobalStyle /> </>, document.getElementById('root'));
+        anterior, para versão 17
