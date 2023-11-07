@@ -1,2 +1,10 @@
 ReactDOM.render(<><App /> < GlobalStyle /> </>, document.getElementById('root'));
         anterior, para versão 17
+
+
+        function addNewUser() {
+    setUsers([...users,
+     { id: Math.random(),
+        name: inputName.current.value,
+age: inputAge.current.value }])
+ }; Antes de colocar consumo de API com axios
